@@ -39,11 +39,22 @@ function generateCalendar(year, month) {
     return calendarHTML;
 }
 
-function login() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    // Perform login logic here
-    alert(`Logging in with username: ${username} and password: ${password}`);
+function timedIn() {
+    // Get the current time
+    const currentTime = new Date();
+    const formattedTime = currentTime.toLocaleTimeString();
+
+    // Display alert with current time
+    alert(`Timed In at: ${formattedTime}`);
+}
+
+function timedOut() {
+    // Get the current time
+    const currentTime = new Date();
+    const formattedTime = currentTime.toLocaleTimeString();
+
+    // Display alert with current time
+    alert(`Timed Out at: ${formattedTime}`);
 }
 
 updateTime(); // Call initially

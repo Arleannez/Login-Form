@@ -1,37 +1,48 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-  }
-  #clock {
+}
+#clock {
     font-size: 48px;
     margin-bottom: 20px;
-  }
-  #timer {
+}
+#timer {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  #calendar {
+}
+#calendar {
     margin-right: 5%;
     font-size: 18px;
     margin-bottom: 20px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-  }
-  #login-form {
+    padding: 3%;
+    border: solid;
+    border-radius: 3%;
+    color: blueviolet;
+    background-color: #090943;
+}
+#login-form {
+    padding: 4%;
+    padding-bottom: 11%;
+    color: blueviolet;
+    background-color: #090943;
     max-width: 300px;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-  }
-  #login-form input {
-    width: 100%;
+    border-radius: 3%;
+    border: solid;
+}
+#login-form input {
+    width: 95%;
     margin-bottom: 10px;
     padding: 5px;
     font-size: 16px;
-  }
-  #login-form button {
+}
+#timed-in-btn {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -39,4 +50,14 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
-  }
+    margin-bottom: 10px; /* Separate margin for the button */
+}
+#timed-out-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3333; /* Red color for the "Timed Out" button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

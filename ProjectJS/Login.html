@@ -15,10 +15,16 @@
   <h2>Login Form</h2>
   <input type="text" placeholder="Username" id="username">
   <input type="password" placeholder="Password" id="password">
-  <button onclick="login()">Login</button>
+  <button id="timed-in-btn">Timed In</button>
+        <button id="timed-out-btn">Timed Out</button>
 </div>
 
 <script src="Script.js"></script>
+
+<script>
+    document.getElementById('timed-in-btn').addEventListener('click', timedIn);
+    document.getElementById('timed-out-btn').addEventListener('click', timedOut);
+</script>
 </body>
 </html>
 
