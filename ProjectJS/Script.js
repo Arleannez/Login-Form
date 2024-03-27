@@ -2,7 +2,7 @@ function updateTime() {
     const now = new Date();
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     document.getElementById('clock').innerText = now.toLocaleTimeString();
-    document.getElementById('timer').innerText = now.toLocaleDateString(undefined, options);
+    document.getElementById('Date').innerText = now.toLocaleDateString(undefined, options);
     document.getElementById('calendar').innerHTML = generateCalendar(now.getFullYear(), now.getMonth());
 }
 

@@ -3,18 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Form</title>
+<title>Daily Time Record</title>
 <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
+  <audio autoplay loop>
+    <source src="Audio/Samsung GALAXY S4 Alarms - Morning Flower (1).mp3" type="audio/mp3">
+  </audio>
 <div id="clock"></div>
-<div id="timer"></div>
+<div id="Date"></div>
 <div id="calendar"></div>
 <div id="login-form">
   <h2>Login Form</h2>
-  <input type="text" placeholder="Username" id="username">
+  <input type="text" placeholder="Full Name" id="username">
   <input type="password" placeholder="Password" id="password">
+  <input type="password" placeholder="Department Number" id="password">
   <button id="timed-in-btn">Timed In</button>
         <button id="timed-out-btn">Timed Out</button>
 </div>
